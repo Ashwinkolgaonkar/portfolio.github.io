@@ -1,0 +1,130 @@
+body{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+.topContainer{
+    background-color:#dafaf4;
+    position: relative;
+    padding-top: 100px;
+
+}
+#header{
+    margin-top: 0px;
+    margin:0 auto ;
+    font-family: 'Sacramento', cursive;
+    font-size:562.5%;
+    margin: 50px auto 0 auto;
+    color: #66bfbf;
+    line-height:2;
+}
+    h2{
+        font-family: 'Noto Serif', serif;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+h3{
+    font-family: 'Noto Serif', serif;
+    color: #aaf9fc;
+}
+.navbar{
+    background-color: #b0f4f7;
+}
+.nav-item{
+    margin-right: 20px;
+    font-family: 'Noto Serif', serif;
+}
+.middleContainer{
+    background-color: red;
+     height:200px;
+     width:200px;
+
+   
+}
+.profile{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    margin:30px 200px 0;
+
+}
+
+.bottomContainer{
+    font-family: 'Bree Serif', serif;
+    background-color: blue;
+    height:200px;
+    width:200px;
+}
+.bottomCloud{
+    position: absolute;
+    left: 300px;
+
+}
+.topCloud{
+    position:absolute;
+    top:50px;
+    right:300px
+}
+.myWork{
+    padding: 20px 10% 20px;
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding:30px;
+    line-height: 2;
+    margin-top: 50px;
+}
+.footer-link{
+    padding: 10px;
+    text-decoration: none;
+}
+.footer-info{
+    color: #eaf6f6;
+    font-size: small;
+}
+.btn{
+    background-color: #5dd6d6;
+    padding:10px;
+    border-radius:8%;
+    color: #eaf6f6;
+    font-size: medium;
+    text-decoration: none;
+    
+}     
+.btn:hover{
+    background-color: #82f4f8;
+}
+hr{
+    border-style:  none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+   }
+.footer-link:hover{
+    color:#eaf6f6; ;
+}
+.skills{
+  padding:5% 30% 5%;
+  background-color:#bbf5f5;
+}
+.progress{
+   margin:20px 0 20px;
+   
+}
+
+@media(max-width:1000px)
+{
+    .profile{
+     flex-direction: column;
+     margin :auto;
+     text-align: center;
+    }
+    .profileImage{
+        margin :0 auto 0;
+    }
+
+}
