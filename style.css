@@ -140,5 +140,7 @@ hr{
     display:block;
 }
 
-
+.carousel-captions{
+   padding-top: 30px;
+}
 }
