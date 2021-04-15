@@ -2,6 +2,7 @@ body{
     text-align: center;
     font-family: 'Bree Serif', serif;
     
+    
 }
 
 .topContainer{
@@ -69,7 +70,16 @@ h3{
 }
 .myWork{
     padding: 20px 10% 20px;
+
 }
+.testimonial-img{
+    width:60%
+}
+.projectimg{
+    color: rgb(19, 18, 18) ;background-color: rgb(248, 248, 244); width:40%;
+    margin: auto;
+}
+
 
 .bottom-container{
     background-color: #66bfbf;
